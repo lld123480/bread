@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<div style = "background-color: white; text-decoration: underline; text-decoration-color: #314072 ">
+
+  <h1 style = "padding: 1%; text-align: center"> LET'S GET THIS BREAD! </h1>
+
+</div>
+    <div class = "bread"><br/>
+<table style = "width: 800px; margin: 0 auto"><tr>
+
+<td style = "width: 50%">
+
+<a href= "index.html"><img src = "graphics/letsGetit.png" alt = "logo" class = "slice" style = "width: 90%; margin-right: 10%; background-color: white;"></a></td>
+
+<td style = "text-align: left; width: 50%">
+
+
+<h1 style = "background-color: #314072; color: white; text-align: center; width: 400px; margin-bottom: 0; margin-top: 0; font-size: x-large"> Menu </h1>
+<div class="menu">
+  <a href="index.html">Home</a>
+  <a href="recipes.html">New recipes</a>
+  <a href="nutrition.html">Nutrition</a>
+
+</div></div>
+</td>
+</table><br/></div>
+<br/>
+<div class = "block" style = "width: 65%">
+<h2>How To Use</h2>
+
+<p class = "smaller"> The <span style = "font-style: italic"> Let's Get This Bread</span> thingie does other thingies  </p>
+</div>
+<br/><div class = "search">
+<table style = "width: 85%; margin-left: 7.5%; margin-right: 7.5%; border-top: 6px dotted gold; border-bottom: 6px dotted gold"><tr><td>
+<img src = "graphics/recipe.png" alt = "recipe" style = "width: 10%; margin-left: 45%; margin-right: 45%; margin-top: 2%"> <td></tr><tr><td>
+
+<h2 style = "text-align: center"> Start searching for customized recipes! </h2></td>
+</table><br/>
+<form style = "text-align: center" action="results.html">
+<p class = "desc"> Select the meat(s) you would like to use in your recipe. </p>
+
+<input type="checkbox" id="meat" name="meat" value="chicken">
+  <label for="meat">Chicken</label>
+<input type="checkbox" id="meat2" name="meat2" value="pork">
+  <label for="meat2">Beef</label>
+<input type="checkbox" id="meat3" name="meat3" value="pork">
+  <label for="meat3">Pork</label>
+<input type="checkbox" id="meat4" name="meat4" value="lamb">
+  <label for="meat4">Lamb</label>
+<input type="checkbox" id="meat5" name="meat5" value="lamb">
+  <label for="meat5">Turkey</label><br/>
+
+
+ <br/><p class = "desc"> Select the range for # of calories. </p>
+<table style = "margin: 0 auto"><tr><td style = "width: 47.5%">
+  <label for="lowcal" style = "margin-bottom: 1%">Lowest # of calories allowed:</label><br>
+  <input type="text" id="lowcal" name="lowcal" value="400"></td>
+<td style = "width: 47.5%">
+  <label for="hical" style = "margin-bottom: 1%">Highest # of calories allowed:</label><br>
+  <input type="text" id="hical" name="hical" value="700"></td></tr></table>
+
+
+  <br/><p class = "desc"> Select the range for the amount of time to create your meal (in hours). </p>
+<table style = "margin: 0 auto"><tr><td style = "width: 47.5%">
+  <label for="lowtime" style = "margin-bottom: 1%">Smallest amount of time allowed:</label><br>
+  <input type="text" id="lowtime" name="lowtime" value="0.5"></td>
+<td style = "width: 47.5%">
+  <label for="hitime" style = "margin-bottom: 1%">Greatest amount of time allowed:</label><br>
+  <input type="text" id="hitime" name="hitime" value="2"></td></tr></table><br/>
+
+  <input type="submit" class = "submit" value="Submit">
+
+</form>
+</div>
+
+
+
+</body></html>
